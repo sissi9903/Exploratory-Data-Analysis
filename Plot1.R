@@ -1,6 +1,6 @@
 png( file = "plot1.png")
 
-z <- read.csv("Power.txt", sep = ";", stringsAsFactors = FALSE, na.strings = "?")
+z <- read.csv("household_power_consumption.txt", sep = ";", stringsAsFactors = FALSE, na.strings = "?")
 z$Date <- as.Date(z$Date, "%d/%m/%Y")
 a <- as.Date("31/01/2007", "%d/%m/%Y")
 b <- as.Date("03/02/2007", "%d/%m/%Y")
