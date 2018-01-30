@@ -17,4 +17,3 @@ dev.off()
 
 
 
-with(z, plot(date, Global-active_power))
